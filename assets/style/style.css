@@ -1,0 +1,32 @@
+.navbar-brand{
+    font-size: 36px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+    border-top: 6px solid purple;
+    text-align: center;
+}
+
+body {
+    background-image: url('../images/photo-1455612693675-112974d4880b.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.navbar {
+    border-bottom: 6px solid purple;
+
+}
+ 
+#content{
+    background-color: #444444;
+    opacity: .8;
+}
+#content h1{
+    color: purple;
+}
