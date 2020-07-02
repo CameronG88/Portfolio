@@ -26,3 +26,13 @@ $("#camTitle").click(function() {
     var URL = "./index.html"
     window.open(URL,'','',''); 
 });
+$("#bandrepoLink").click(function() {
+    var URL = "https://github.com/CameronG88/Bandify"
+    window.open(URL,'_blank','','');
+});
+
+$("#weatherrepoLink").click(function() {
+    var URL = "https://github.com/CameronG88/WeatherHub"
+    window.open(URL,'_blank','',''); 
+});
+

@@ -77,6 +77,12 @@ footer{
 .link {
     cursor: pointer;
 }
-.camTitle{
+#camTitle{
+    cursor: pointer;
+}
+#bandrepoLink{
+    cursor: pointer;
+}
+#weatherrepoLink{
     cursor: pointer;
 }
