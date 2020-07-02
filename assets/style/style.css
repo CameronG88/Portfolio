@@ -1,6 +1,9 @@
 .navbar-brand{
     font-size: 36px;
 }
+nav{
+    background-color: transparent;
+}
  .navbar-brand{
      background-color: maroon;
     margin-top: 0;
@@ -41,6 +44,8 @@ footer{
     background-color: rgba(68, 68, 68, .95);
     padding: 6px;
     width: 70%;
+    margin-top: 15px;
+    margin-bottom: 5px;
 
 }
 .myCaption {
@@ -57,4 +62,13 @@ footer{
 .cardimage{
     height: 250px;
     width: 250px;
+}
+
+.aboutmetext {
+    color: whitesmoke;
+    font-size: large;
+}
+.portHeader {
+    color: whitesmoke;
+    font-size: x-large;
 }
