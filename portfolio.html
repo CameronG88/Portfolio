@@ -17,7 +17,7 @@
     <!-- NavBar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
-            <a class="navbar-brand">The Cam Graham</a>
+            <a id="camTitle" class="navbar-brand">The Cam Graham</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -51,19 +51,21 @@
         <div class="row mt-4">
             <div class="col-sm-6 d-flex justify-content-center mb-4">
                 <article class="card cardimage">
-                    <img alt="bandify preview" src="./assets/images/Bandifyshot.png"" class="card-image-top image fluid cardimage">
+                    <img alt="bandify preview" src="./assets/images/Bandifyshot.png"" class=" card-image-top image fluid
+                        cardimage">
                     <article id="bandifyCaption" class="card-body myCaption">
                         <h5 class="bg title">Bandify</h5>
                     </article>
                 </article>
             </div>
             <div class="col-sm-6 d-flex justify-content-center">
-                <p class="aboutmetext">Bandify is an app that allows you to stream music from your favorite artists while 
+                <p class="aboutmetext text-center">Bandify is an app that allows you to stream music from your favorite artists
+                    while
 
-                    simultaneously giving you quick access to artist information. Using the dropdown menu, you can 
-                    
-                    select whether you want to search by artist or album. Whichever criteria you search by, the 
-                    
+                    simultaneously giving you quick access to artist information. Using the dropdown menu, you can
+
+                    select whether you want to search by artist or album. Whichever criteria you search by, the
+
                     appropriate response will populate the page. </p>
             </div>
 
@@ -73,9 +75,11 @@
     <div class="content container">
         <div class="row mt-4" style="margin: auto">
             <div class="col-sm-6 d-flex justify-content-center mb-4">
-               
+
                 <div class="row">
-                    <p class="aboutmetext">WeatherHub is a single-page website I made to pull current weather data and 5-day forecast for a searched city from the OpenWeatherMap api. 
+                    <p class="aboutmetext text-center"><br><br>WeatherHub is a single-page website I made to pull current
+                        weather data and
+                        5-day forecast for a searched city from the OpenWeatherMap api.
                     </p>
                 </div>
             </div>
@@ -92,8 +96,17 @@
     </div>
 
     <footer class="bg-dark">
-        <div class="container text-canter text-white">
-            <p class="pt-3">©Copyright </p>
+        <div class="container text-center text-white">
+            <div class="row">
+                <div class="col">
+                    <p class="pt-3 text-left">©Copyright </p>
+                </div>
+                <div class="col pt-3 d-flex justify-content-between">
+                    <a class="link" id="githubLink">GitHub</a>
+                    <a class="link" id="linkedinLink">LinkedIn</a>
+                    <a class="link" id="resumeLink">Resume</a>
+                </div>
+            </div>
 
         </div>
     </footer>

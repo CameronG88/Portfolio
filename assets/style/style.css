@@ -62,7 +62,7 @@ footer{
 
 .cardimage{
     height: 250px;
-    width: 350px;
+    width: 380px;
 }
 
 .aboutmetext {
@@ -73,4 +73,10 @@ footer{
 .portHeader {
     color: whitesmoke;
     font-size: x-large;
+}
+.link {
+    cursor: pointer;
+}
+.camTitle{
+    cursor: pointer;
 }
